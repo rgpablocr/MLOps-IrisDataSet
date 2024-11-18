@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/true-strata-441803-t5/mlops', '.']
+  args: ['build', '-t', 'gcr.io/mlops-441805/mlops', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/true-strata-441803-t5/mlops']
+  args: ['push', 'gcr.io/mlops-441805/mlops']
